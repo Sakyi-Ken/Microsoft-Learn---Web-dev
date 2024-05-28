@@ -1,0 +1,27 @@
+.toggle{
+  border: none;
+  position: absolute;
+  background-color:black;
+  color:white;
+  left: 580px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer
+}
+
+.is-toggled{
+  background-color:black;
+  color:white;
+}
+
+.toggle:hover{
+  background-color: rgb(115, 112, 112);
+  font-weight:bold;
+}
+
+.switched{
+  background-color:  white;
+  color:black;
+  border:1px solid;
+}
